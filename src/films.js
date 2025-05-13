@@ -58,7 +58,16 @@ function moviesAverageByCategory(array, genre) {
 }
 
 // Exercise 7: Modify the duration of movies to minutes
-function hoursToMinutes() {}
+function hoursToMinutes(array) {
+  const list = JSON.parse(JSON.stringify(array));
+  list.forEach((movie) => {
+    const [hours = 0, minutes = 0] = movie.duration.split(' ');
+    let duration = parseInt(hours) * 60 + parseInt(minutes);
+    movie.duration = duration;
+  });
+
+  return list;
+}
 
 // Exercise 8: Get the best film of a year
 function bestFilmOfYear() {}
