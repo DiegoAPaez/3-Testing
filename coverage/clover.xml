@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1747213940019" clover="3.2.0">
+  <project timestamp="1747213940020" name="All files">
+    <metrics statements="41" coveredstatements="41" conditionals="16" coveredconditionals="13" methods="19" coveredmethods="19" elements="76" coveredelements="73" complexity="0" loc="41" ncloc="41" packages="1" files="2" classes="2"/>
+    <file name="data.js" path="/home/diego/Documents/ITAcademy/S3-Testing/src/data.js">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2006" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="2007" count="1" type="stmt"/>
+    </file>
+    <file name="films.js" path="/home/diego/Documents/ITAcademy/S3-Testing/src/films.js">
+      <metrics statements="38" coveredstatements="38" conditionals="14" coveredconditionals="12" methods="19" coveredmethods="19"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="502" type="stmt"/>
+      <line num="10" count="502" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="18" count="503" type="stmt"/>
+      <line num="20" count="16" type="stmt"/>
+      <line num="21" count="16" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="28" count="6" type="stmt"/>
+      <line num="29" count="47" type="stmt"/>
+      <line num="30" count="153" type="stmt"/>
+      <line num="31" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="34" count="5" type="stmt"/>
+      <line num="39" count="5" type="stmt"/>
+      <line num="40" count="1657" type="cond" truecount="2" falsecount="0"/>
+      <line num="42" count="5" type="stmt"/>
+      <line num="47" count="3" type="stmt"/>
+      <line num="48" count="3" type="stmt"/>
+      <line num="50" count="3" type="stmt"/>
+      <line num="51" count="503" type="cond" truecount="4" falsecount="0"/>
+      <line num="52" count="58" type="stmt"/>
+      <line num="53" count="58" type="stmt"/>
+      <line num="57" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="62" count="6" type="stmt"/>
+      <line num="63" count="6" type="stmt"/>
+      <line num="64" count="753" type="cond" truecount="1" falsecount="1"/>
+      <line num="65" count="753" type="stmt"/>
+      <line num="66" count="753" type="stmt"/>
+      <line num="69" count="6" type="stmt"/>
+      <line num="74" count="3" type="stmt"/>
+      <line num="75" count="503" type="stmt"/>
+      <line num="76" count="12" type="stmt"/>
+      <line num="79" count="3" type="stmt"/>
+      <line num="84" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="85" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
