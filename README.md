@@ -1,86 +1,65 @@
-# Sprint 3 IT Academy | Video management tool
+# 📚 Sprint 3 | Testing
 
-## Introduction
+## 🧠 Goals
 
-A company in the audiovisual sector has asked us for a web application that will allow their employees to quickly find movies from a large database they have, since the process is currently done manually.
+- Understand and practice methods: Map, reduce, and filter.
+- Create Unit Tests.
+- Learn to manipulate a dataset.
 
-You will be in charge of setting up the core of the application: all the logic of filtering and sorting of movies. You have 2 weeks to finish, which is how long this sprint lasts.
+## 🛠️ Getting Started
 
-<br>
-
-## Requirements
-
-
-1. Clone this repo
-```bash
-$ git clone https://github.com/IT-Academy-BCN/starter-code-frontend-sprint-3-movies
-```
-
-2. Unlink your repo from the itacademy repository
-```bash
-$ git remote rm origin
-```
-
-3. Link your repo to the repository you have to create in your github account
-```bash
-$ git remote add origin <your repo name!>
-```
-
-<br>
-
-## Submission
-
-1. Upon completion, run the following commands:
+### 1️⃣ Clone this repository
 
 ```bash
-$ git add .
-$ git commit -m "Sprint Solution"
-$ git push origin master
+git clone https://github.com/DiegoAPaez/3-Testing.git
+cd 3-Testing
 ```
 
-2. Create Pull Request.
+### 2️⃣ Install Dependencies
 
-3. Upload the link to the virtual campus so that your mentor can correct it and give you feedback.
+Make sure you have Node.js installed. Then install the packages:
 
-
-
-<br>
-
-## Introduction
-
-The statement of the exercise is available on the virtual campus.
-
-<br>
-
-## Tests!
-
-
-```shell
-$ npm install
-$ npm run test:watch
+```bash
+npm install
 ```
 
-And last, open the generated `test-results.html` file with the "Live Server" VSCode extension to see test results.
+### 3️⃣ Run Tests
 
-Apart from the statement, you will know exactly what you are asked to do by looking at the file `tests/films.spec.js`, all tests are already defined here!
+```bash
+npm run test
+```
 
-<br>
+To generate a coverage report use the following command:
 
-## Instructions
+```bash
+npm run test:coverage
+```
 
-You have the following indications from the frontend responsible:
+### ✅ Coverage Report
 
-- It is mandatory to implement all loops in ES6 (using map, reduce, filter and sort to manipulate arrays).
+![Code Coverage](coverage-report.png)
 
-- As at the moment we don't consume data from a server using an API, we will work with data from the src/data.js archive. For the moment we will implement the logic using
-an array of information about 250 movies.
+## 📁 Folder Structure
 
-- The implementation is about processing this array of movies, to display it as requested in each exercise.
+```
+📂 coverage/
+📂 src/
+ ┣ 📄 data.js
+ ┣ 📄 films.js
+📂 tests/
+ ┣ 📄 films.spec.js
+📄 README.md
+```
 
-- The logic to implement will be placed in the src/films.js file.
+## 💻 Technologies Used
 
-- You don't need to show the result of each function on the screen. Your goal is to pass the tests.  More information on how to program oriented to pass tests at the end of the document.
+![JavaScript Icon](https://skillicons.dev/icons?i=js 'JavaScript Icon')
+![Jest Icon](https://skillicons.dev/icons?i=jest 'Jest Icon')
 
-- Don't forget to include the capture of the test results in the virtual campus.
+## 🤝 Contributions
 
+Contributions are welcome. Please follow the [project's guidelines](CONTRIBUTING.md) for submitting changes.
 
+## ⏳ Project Status
+
+![Static Badge](https://img.shields.io/badge/Completed-Completed?style=flat-square&label=Status) ![Static Badge](https://img.shields.io/badge/Pending-Revision?style=flat-square&label=Revision&color=yellow)
