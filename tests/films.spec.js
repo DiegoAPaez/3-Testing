@@ -377,7 +377,7 @@ describe('Function "hoursToMinutes"', () => {
     expect(hoursToMinutes(movieTry)[0].duration).toBe(120);
   });
 });
-/*
+
 // Exercise 8
 describe('Function "bestFilmOfYear"', () => {
   it('should be declared', () => {
@@ -429,5 +429,5 @@ describe('Function "bestFilmOfYear"', () => {
         score: 8.4
       }
     ]);
-  });
-});*/
+  }); /**/
+});
